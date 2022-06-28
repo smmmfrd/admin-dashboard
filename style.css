@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+#dashboard{
+    background-color: rgb(43, 170, 243);
+    padding: 15px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#dashboard > ul{
+    list-style-type: none;
+}
+
+#dashboard > ul > li{
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 150px 1fr;
+}
+
+/* HEADER */
+#header{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50% 50%;
+    padding: 15px;
+}
+
+#search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar > input{
+    background-color: rgb(221, 221, 221);
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 15px;
+    width: 80%;
+    height: 25px;
+    padding : 0 15px;
+}
+
+#profile{
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+#header-controls{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#header-controls > * {
+    background-color: rgb(43, 170, 243);
+    border: 1px solid rgb(43, 170, 243);
+
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    padding : 0 15px;
+
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+}
+
+/* CONTENT */
+#content{
+    padding: 10px;
+    background-color: rgb(168, 180, 180);
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    gap: 30px;
+}
+
+#news{
+    padding: 10px;
+}
+
+#project-holder{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 15px;
+}
+
+.card{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+#news{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+#announce-holder{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.annouce-card{
+    padding: 10px;
+}
+
+#trend-holder{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.trend-card{
+    padding: 10px;
+}
