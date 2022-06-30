@@ -53,6 +53,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
 
 #search-bar > input{
@@ -69,8 +70,14 @@ main{
     display: flex;
     justify-content: end;
     align-items: center;
-
+    gap: 1rem;
     font-weight: bold;
+}
+
+#profile-welcome{
+    display: flex;
+    align-items: center;
+    gap: 1rem
 }
 
 #header-controls{

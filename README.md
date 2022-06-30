@@ -5,6 +5,8 @@ Savior post for converting icons - https://stackoverflow.com/questions/22252472/
 
 user icon - https://uxwing.com/avatar-icon/
 
+search inco - https://uxwing.com/search-icon/
+
 home icon - https://uxwing.com/home-icon/
 profile icon - https://uxwing.com/male-icon/
 mail icon - https://uxwing.com/email-round-icon/
